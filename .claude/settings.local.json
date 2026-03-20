@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx -y create-vite@latest temp-app --template react)",
+      "Bash(cp -r temp-app/* .)",
+      "Bash(cp temp-app/.gitignore .)",
+      "Bash(rm -rf temp-app)",
+      "Bash(rm C:/Users/User/ProyectosClaude/prueba1/src/App.css C:/Users/User/ProyectosClaude/prueba1/stitch_screen.html)",
+      "Bash(npm run:*)",
+      "mcp__atlassian__getAccessibleAtlassianResources",
+      "mcp__atlassian__searchJiraIssuesUsingJql",
+      "mcp__atlassian__getTransitionsForJiraIssue",
+      "mcp__atlassian__transitionJiraIssue"
+    ]
+  }
+}
